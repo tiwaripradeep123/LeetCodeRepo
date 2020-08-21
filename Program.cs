@@ -4,6 +4,7 @@ namespace LeetCodeRepo
 {
     class Program
     {
+        // ToDo - Implement execution of all tests after build/check-in and reject the pull if build is failing.
         static void Main(string[] args)
         {
             Console.WriteLine("Hello ! \n This is repo for leet code practice in c#");
