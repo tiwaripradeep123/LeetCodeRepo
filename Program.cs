@@ -12,12 +12,16 @@ namespace LeetCodeRepo
             Console.WriteLine("Each problem has video explainations too.");
             Console.WriteLine("Select case to execute perticular problem.");
             Console.WriteLine("1. Reverse integer");
+            Console.WriteLine("2. Two sum problem");
             var input = Console.ReadLine();
             int.TryParse(input, out int choise);
             switch (choise)
             {
                 case 1:
                     ReverseNumber.Tests();
+                    break;
+                case 2:
+                    TwoSumProblem.Tests();
                     break;
                 default:
                     break;
